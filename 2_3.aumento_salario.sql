@@ -1,0 +1,1 @@
+update employees  set salary = (((salary / 100) * 10) +  salary ) where salary < 5000;

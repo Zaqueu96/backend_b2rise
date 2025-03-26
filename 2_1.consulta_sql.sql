@@ -1,0 +1,1 @@
+SELECT *, (quantity * price) as receita_total from sales order by receita_total desc;
